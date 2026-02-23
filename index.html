@@ -1,0 +1,30 @@
+<div id="container">
+    <div id="calculadora">
+        <div id="tela"></div>
+        <div id="botoes">
+            <button onclick="useNumber(7)">7</button>
+            <button onclick="useNumber(8)">8</button>
+            <button onclick="useNumber(9)">9</button>
+            <button onclick="useOperator('/')">/</button>
+
+            <button onclick="useNumber(4)">4</button>
+            <button onclick="useNumber(5)">5</button>
+            <button onclick="useNumber(6)">6</button>
+            <button onclick="useOperator('x')">x</button>
+
+            <button onclick="useNumber(1)">1</button>
+            <button onclick="useNumber(2)">2</button>
+            <button onclick="useNumber(3)">3</button>
+            <button onclick="useOperator('-')">-</button>
+
+            <button onclick="addDot()">.</button>
+            <button onclick="useNumber(0)">0</button>
+            <button onclick="getResult()">=</button>
+            <button onclick="useOperator('+')">+</button>
+        </div>
+    </div>
+    <button id="reset-btn" onclick="reset()">Resetar</button>
+</div>
+
+<link rel="stylesheet" href="./index.css">
+<script src="./index.js"></script>
